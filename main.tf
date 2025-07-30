@@ -1,6 +1,6 @@
 module "storage_account" {
    source  = "app.terraform.io/my-harshit-tf-org/storageaccount/azurerm"
-  version = "1.0.0"
+  version = "1.0.1"
 
   name_prefix             = "st"
   name_suffix             = "myapp-prod"
