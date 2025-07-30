@@ -4,7 +4,7 @@ module "storage_account" {
 
   name_prefix             = "st"
   name_suffix             = "myapp-prod"
-  resource_group_name     = azurerm_resource_group.example.name
+  resource_group_name     = "RG1"
   location                = "eastus"
   account_tier            = "Standard"
   account_replication_type = "GRS"
