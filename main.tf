@@ -14,7 +14,7 @@ module "storage_account" {
   network_rules = {
     default_action             = "Deny"
     ip_rules                   = ["123.123.123.123"]
-    virtual_network_subnet_ids = [azurerm_subnet.example.id]
+    virtual_network_subnet_ids = ["/subscriptions/b03ba61c-ebe2-4252-9a93-7603e3176b3d/resourceGroups/RG1/providers/Microsoft.Network/virtualNetworks/Vnet01/subnets/default"]
     bypass                     = ["AzureServices"]
   }
 
